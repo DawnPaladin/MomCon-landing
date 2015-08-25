@@ -1,17 +1,23 @@
 /* Global */
+	body {
+		background-image: url('../img/debut_dark.png');
+	}
+	.main-wrapper {
+		background-color: #ededed;
+	}
 	body, .accordion  {
 		font-family: "Open Sans", sans-serif;
+		color: #1d1f28;
 	}
 	.text-background {
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0,0,0,.5);
-		color: white;
+		background-color: rgba(0,0,0,.25);
+		color: #dcdce5;
 		padding: 1em;
 	}
 	footer {
-		background-image: url('../img/debut_dark.png');
-		color: white;
+		color: #dcdce5;
 	}
 	.navbar {
 		margin-bottom: 0;
