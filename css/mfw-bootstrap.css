@@ -16,9 +16,10 @@
 		color: #dcdce5;
 		padding: 1em;
 	}
-	footer {
-		color: #dcdce5;
-	}
+	footer { color: #dcdce5; }
+	footer a:link { color: #ebebeb; }
+	footer a:visited { color: #c0bebe; }
+	footer a:hover, footer a:active { color: white; }
 	.Cathy-Duffy-apple {
 		margin-top: 2em;
 		max-width: 100%;
