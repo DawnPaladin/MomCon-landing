@@ -13,9 +13,19 @@
 	<![endif]-->
 </head>
 <style>
-	main p {
-
-	}
+.fluid-container {
+	background: url('img/blurry-forest-dark.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin-bottom: 2em;
+}
+.welcome-image {
+	margin: 2em 0; 
+	max-width: 100%;
+}
+.main-wrapper h1 {
+	color: #EFF0F4;
+	margin: 3em 0 1em;
+}
 </style>
 <body>
 
@@ -43,16 +53,35 @@
 </nav>
 
 <div class="main-wrapper">
+	<div class="fluid-container">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-md-offset-1 col-xs-12 col-sm-9">
+					<h1>Welcome, MomCon attendees and MOPS members!</h1>
+				</div>
+				<div class="col-md-3 col-sm-3 hidden-xs">
+					<img src="img/girl.jpg" class="welcome-image">
+				</div>
+			</div>
+		</div>
+	</div>
 	<main class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h1>Welcome MomCon attendees and MOPS members!</h1>
+			<div class="col-sm-6 col-md-7 col-md-offset-1">
+				<p>We hope you had a chance to stop by our booth at MomCon. If you have two- or three-year-olds, be sure to look at our Preschool Package&mdash;it's a great way to bond with your child while instilling good character.</p>
+				<br>
+				<h4>Congratulations to the 3 lucky winners of our Preschool Package raffle:</h4>
+				<ul>
+					<li>___________________</li>
+					<li>___________________</li>
+					<li>___________________</li>
+				</ul>
 			</div>
-			<div class="pull-right col-xs-12 col-sm-6 col-md-5">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="panel panel-default">
 					<div class="panel-body">
 						For 2- and 3-year-olds
-						<h2>Preschool Package</h2>
+						<h3>Preschool Package</h3>
 							Use this coupon code for X% off:
 						<strong>XX12345XX</strong>
 					</div>
@@ -60,19 +89,9 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 						For 4-year-olds (and older 3s)
-						<h2>Pre-K Package</h2>
+						<h3>Pre-K Package</h3>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-6 col-md-7">
-				<p>We hope you had a chance to stop by our booth at MomCon. If you have two- or three-year-olds, be sure to look at our Preschool Package&mdash;it's a great way to bond with your child while instilling good character.</p>
-				<p>Congratulations to the 3 lucky winners of our Preschool Package raffle:
-					<ul>
-						<li>___________________</li>
-						<li>___________________</li>
-						<li>___________________</li>
-					</ul>
-				</p>
 			</div>
 		</div>
 	</main>
