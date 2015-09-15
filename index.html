@@ -297,6 +297,10 @@ a.ticket-link:hover {
 	var expireString = expireTime.toUTCString();
 	document.cookie = 'referrer=MomCon; expires='+expireString+';path=/';
 })();
+
+$('.navbar-toggle').click(function(){
+	$('.navbar-collapse').toggleClass('collapse');
+});
 </script>
 
 </body>
