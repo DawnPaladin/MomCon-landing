@@ -39,26 +39,38 @@
 	color: #EFF0F4;
 	margin: 3em 0 1em;
 }
+.main-bg {
+	background-color: #DEFFFC;
+}
 .margin-top {
 	margin-top: 2em;
 }
 .ticket {
 	border-image: url('img/dashed-border-square.png') 9 round;
-	border-width: 4px;
+	border-width: 4px 4px 4px 0;
 	background: url('img/textured-paper.jpg') -9px -9px no-repeat;
 	min-height: 97px;
+	position: relative;
+}
+@media (max-width: 767px) {
+	.ticket {
+		margin-left: 20px;
+	}
+}
+.ticket::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 23px;
+	left: -23px;
+	background: url('img/ticket-edge.png');
+	background-size: 100%;
 }
 a.ticket-link {
 	transition: color .25s;
 }
-a.ticket-link div {
-	transition: background-color .25s;
-}
 a.ticket-link:hover {
 	text-decoration: none;
-}
-a.ticket-link:hover div {
-	background-color: rgba(255,255,255,.5);
 }
 .center-text {
 	text-align: center;
