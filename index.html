@@ -39,8 +39,15 @@
 	color: #EFF0F4;
 	margin: 3em 0 1em;
 }
-.main-bg {
-	background-color: #FFDDDD;
+@media (min-width: 768px) {
+	.main-bg {
+		background: url('img/plane.png') 30% 90% no-repeat, url('img/cloud.png') fixed;
+	}
+}
+@media (max-width: 767px) {
+	.main-bg {
+		background: #DDFFFE;
+	}
 }
 .margin-top {
 	margin-top: 2em;
